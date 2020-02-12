@@ -9,7 +9,7 @@ import java.nio.file.Files;
 import java.util.Random;
 
 public class StaticMethod {
-	// 생성자 대신 정적 팩터리 메서드를 고려하라
+	// ----- 1.1 생성자 대신 정적 팩터리 메서드를 고려하라 -----
 	
 	/*
 	 * 클라이언트가 클래스의 인스턴스를 생성자, 정적 메서드를 이용해 반환 할 수 있으며 각각 장단점이 존재한다.
